@@ -1,0 +1,28 @@
+head {
+      color:rgb(255, 255, 255)
+    }
+
+body {
+      background-color: rgb(0, 0, 0);
+      color:rgb(255, 255, 255)
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    img {
+      max-width: 300px;
+      height: auto;
+      margin: 20px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1.2em;
+    }
