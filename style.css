@@ -9,7 +9,7 @@ body {
       
     }
     img {
-      max-width: 300px;
+      max-width: 700px;
       height: auto;x
       margin: 0px 0;
     }
@@ -22,13 +22,15 @@ body {
     }
     a {
       color: #E3E1D9;
-      font-size: 1.2em;
+      font-size: 0.8em;
+      font-family: monospace, bold;
     }
     h1 {
         text-align: center;
         color: #E3E1D9;
     }
     h2 {
+      max-width: 700px;
         color: #E3E1D9;
     }
     div {
@@ -36,5 +38,6 @@ body {
         padding: 10px;
         max-width: 1000px;
         text-align: justify;
+      font-size: 0.8em;
     }
     
