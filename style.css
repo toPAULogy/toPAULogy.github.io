@@ -4,14 +4,12 @@ head {
 
 body {
       background-color: rgb(0, 0, 0);
-      color:rgb(255, 255, 255)
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px;
+      font-family: Garamond, serif;
+      padding: 50px;
     }
     img {
       max-width: 300px;
-      height: auto;
+      height: auto;x
       margin: 20px 0;
     }
     ul {
@@ -25,4 +23,7 @@ body {
       text-decoration: none;
       color: #ffffff;
       font-size: 1.2em;
+    }
+    h1 {
+        color: #ffffff;
     }
