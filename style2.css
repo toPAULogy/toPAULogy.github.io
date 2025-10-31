@@ -22,12 +22,11 @@ body {
       margin: 0px 0;
     }
     a {
-      color: #000000;
-      font-size: 1.2em;
+      color: #0000FF;
+      font-size: 1em;
       font-family: "EB Garamond", sans-serif;
       text-decoration:none;
       padding: 0px;
-      font-weight: bold;
       max-width: 1000px;
       text-align: justify;
     }
