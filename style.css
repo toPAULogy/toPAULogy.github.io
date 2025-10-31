@@ -4,13 +4,14 @@ head {
 
 body {
       background-color: #FFFFFF;
-      padding: 50px;
+      padding: 0px;
       font-family: EB Garamond, sans-serif;
       font-weight: 100;
       
     }
     img {
-      max-width: 700px;
+      width: 50em;
+      max-width: 95%;
       height: auto;x
       margin: 0px 0;
     }
@@ -28,7 +29,8 @@ body {
       text-decoration:none;
       padding: 0px;
       font-weight: bold;
-      max-width: 1000px;
+      width: 50em;
+      max-width: 95%;
       text-align: justify;
     }
     h1 {
@@ -39,13 +41,14 @@ body {
       font-variant-caps: small-caps;
     }
     h2 {
-      max-width: 1000px;
+      width: 100%;
       color: #000000;
       font-weight: bold;
         
     }
     h3 {
-      max-width: 1000px;
+        width: 50em;
+        max-width: 95%;
         color: #000000;
         font-weight: bold;
     }
@@ -54,8 +57,9 @@ body {
         text-decoration:none;
         font-family: "EB Garamond", sans-serif;
         padding: 10px;
-        max-width: 1000px;
+        width: 50em;
+        max-width: 95%;
         text-align: justify;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
