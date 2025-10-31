@@ -60,6 +60,38 @@ body {
         width: 50em;
         max-width: 95%;
         text-align: justify;
-        font-size: 1em;
+        font-size: 1.1em;
     }
     
+    .toc {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content; /* number | title | page */
+  grid-column-gap: 1rem; /* spacing between columns */
+  width: 50em;
+  max-width: 95%;
+}
+
+.toc-item {
+  display: contents; /* allow grid children to align in the parent grid */
+}
+
+.section-number {
+  justify-self: start; /* left-aligned */
+}
+
+.section-title {
+  justify-self: start; 
+}
+
+.subsection-title {
+  justify-self: stretch; /* middle fills remaining space */
+  overflow-wrap: break-word; /* wrap long titles */
+}
+
+.page-number {
+  justify-self: end; /* right-aligned */
+}
+
+.subsection .section-number {
+  padding-left: 2rem; /* indent subsections */
+}
