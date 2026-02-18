@@ -21,7 +21,7 @@ body {
     }
     li {
     display: list-item;
-      margin: 0px 0;
+      margin: 100px 10;
     }
     a {
       color: #0000FF;
