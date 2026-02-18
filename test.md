@@ -2,7 +2,7 @@
 layout: default
 title: Monoidal structures in locally covariant QFT
 ---
-### 1   Monoidal structures in locally covariant QFT
+### 1 &emsp; Monoidal structures in locally covariant QFT
 
 I'm going to discuss monoidal functors in relation to locally covariant quantum field theory. For the sake of brevity, I will only define strict monoidal categories and functors even though the examples I will work through later are not strict. I would be happy to discuss this after the presentation. 
 
