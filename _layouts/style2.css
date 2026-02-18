@@ -1,0 +1,66 @@
+head {
+      color:rgb(255, 255, 255)
+    }
+
+body {
+      background-color: #FFFFFF;
+      padding: 0px;
+      font-family: EB Garamond, sans-serif;
+      font-weight: 100;
+      
+    }
+    img {
+      width: 50em;
+      max-width: 95%;
+      height: auto;x
+      margin: 0px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 0px 0;
+    }
+    a {
+      color: #0000FF;
+      font-size: 1em;
+      font-family: "EB Garamond", sans-serif;
+      text-decoration:none;
+      padding: 0px;
+      width: 50em;
+      max-width: 95%;
+      text-align: justify;
+    }
+    h1 {
+      text-align: center;
+      font-family: "EB Garamond", sans-serif;
+      color: #000000;
+      font-style: italic;
+      font-variant-caps: small-caps;
+    }
+    h2 {
+      width: 50em;
+      max-width: 95%;
+      color: #000000;
+      font-weight: bold;
+        
+    }
+    h3 {
+        width: 50em;
+        max-width: 95%;
+        color: #000000;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    div {
+        color: #000000;
+        text-decoration:none;
+        font-family: "EB Garamond", sans-serif;
+        padding: 10px;
+        width: 50em;
+        max-width: 95%;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    

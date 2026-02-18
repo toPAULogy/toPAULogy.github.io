@@ -1,0 +1,97 @@
+head {
+      color:rgb(255, 255, 255)
+    }
+
+body {
+      background-color: #FFFFFF;
+      padding: 0px;
+      font-family: EB Garamond, sans-serif;
+      font-weight: 100;
+      
+    }
+    img {
+      width: 50em;
+      max-width: 95%;
+      height: auto;x
+      margin: 0px 0;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 0px 0;
+    }
+    a {
+      color: #000000;
+      font-size: 1.2em;
+      font-family: "EB Garamond", sans-serif;
+      text-decoration:none;
+      padding: 0px;
+      font-weight: bold;
+      width: 50em;
+      max-width: 95%;
+      text-align: justify;
+    }
+    h1 {
+      text-align: center;
+      font-family: "EB Garamond", sans-serif;
+      color: #000000;
+      font-style: italic;
+      font-variant-caps: small-caps;
+    }
+    h2 {
+      width: 100%;
+      color: #000000;
+      font-weight: bold;
+        
+    }
+    h3 {
+        width: 50em;
+        max-width: 95%;
+        color: #000000;
+        font-weight: bold;
+    }
+    div {
+        color: #000000;
+        text-decoration:none;
+        font-family: "EB Garamond", sans-serif;
+        padding: 10px;
+        width: 50em;
+        max-width: 95%;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    
+    .toc {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content; /* number | title | page */
+  grid-column-gap: 1rem; /* spacing between columns */
+  width: 50em;
+  max-width: 95%;
+}
+
+.toc-item {
+  display: contents; /* allow grid children to align in the parent grid */
+}
+
+.section-number {
+  justify-self: start; /* left-aligned */
+}
+
+.section-title {
+  justify-self: start; 
+}
+
+.subsection-title {
+  justify-self: stretch; /* middle fills remaining space */
+  overflow-wrap: break-word; /* wrap long titles */
+}
+
+.page-number {
+  justify-self: end; /* right-aligned */
+}
+
+.subsection .section-number {
+  padding-left: 2rem; /* indent subsections */
+}
