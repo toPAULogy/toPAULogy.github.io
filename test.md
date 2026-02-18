@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Test
+title: Monoidal structures in locally covariant QFT
 ---
+## 1. Monoidal structures in locally covariant QFT
+
 I'm going to discuss monoidal functors in relation to locally covariant quantum field theory. For the sake of brevity, I will only define strict monoidal categories and functors even though the examples I will work through later are not strict. I would be happy to discuss this after the presentation. 
 
 A (strict) monoidal category generalises the notion of a tensor product on vector spaces. In the same way that the tensor product takes in two vector spaces and outputs a third, a monoidal category is a category equipped with 
