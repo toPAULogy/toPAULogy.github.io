@@ -6,8 +6,6 @@ body {
       background-color: #FFFFFF;
       padding: 0px;
       font-family: EB Garamond, sans-serif;
-      font-weight: 100;
-      
     }
     img {
       width: 50em;
@@ -17,11 +15,9 @@ body {
     }
     ul {
       list-style-type: disc;
-      padding: 100px;
     }
     li {
-    display: list-item;
-      margin: 100px 10;
+      display: list-item;
     }
     a {
       color: #0000FF;
@@ -40,20 +36,6 @@ body {
       font-style: italic;
       font-variant-caps: small-caps;
     }
-    h2 {
-      width: 50em;
-      max-width: 95%;
-      color: #000000;
-      font-weight: bold;
-        
-    }
-    h3 {
-        width: 50em;
-        max-width: 95%;
-        color: #000000;
-        font-weight: bold;
-        font-size: 1.2em;
-    }
     div {
         color: #000000;
         text-decoration:none;
@@ -62,6 +44,8 @@ body {
         width: 50em;
         max-width: 95%;
         text-align: justify;
-        font-size: 1.1em;
+        font-size: 1em;
     }
-    
+    * {
+        list-style-position: inside;
+    }
