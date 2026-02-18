@@ -17,6 +17,7 @@ body {
     }
     ul {
       list-style-type: disc;
+      padding: 100px;
     }
     li {
     display: list-item;
