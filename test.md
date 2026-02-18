@@ -2,7 +2,7 @@
 layout: default
 title: Monoidal structures in locally covariant QFT
 ---
-## 1. Monoidal structures in locally covariant QFT
+### 1   Monoidal structures in locally covariant QFT
 
 I'm going to discuss monoidal functors in relation to locally covariant quantum field theory. For the sake of brevity, I will only define strict monoidal categories and functors even though the examples I will work through later are not strict. I would be happy to discuss this after the presentation. 
 
@@ -28,7 +28,15 @@ Embeddings are associative and the composition of two isometries is an isometry.
 
 As $\chi_2\in \operatorname{Hom}(\mathbf{Loc})$, we can define a new curve with the preimage of $\chi_2$, $\gamma^\prime=\chi_2^{-1}[\gamma]: [a,b]\rightarrow \mathcal{N}$. If the endpoints of $\gamma$ are in $\chi_2\circ \chi_1 (\mathcal{M})$ in $\mathcal{O}$, then the endpoints of $\gamma^\prime$ are in $\chi_1 (\mathcal{M})$. As $\chi_1\in \operatorname{Hom}(\mathbf{Loc})$, we must have $\gamma^\prime(t)\in \chi_1(\mathcal{M})$ for all $t\in ]a,b[$ implying that $\gamma(t)\in \chi_2\circ\chi_1(\mathcal{M})$ for all $t\in ]a,b[$. So $\chi = \chi_2\circ\chi_1\in \operatorname{Hom}(\mathbf{Loc})$.
 
-We can extend $\mathbf{Loc}$ to a monoidal category $\mathbf{Loc}^\sqcup$ by taking the disjoint union as a bifunctor and the empty set as the unit element. The disjoint union is associative up to natural isomorphism$$\mathcal{M}_1\sqcup (\mathcal{M}_2\sqcup \mathcal{M}_3)\cong( \mathcal{M}_1\sqcup \mathcal{M}_2)\sqcup \mathcal{M}_3\quad \forall \mathcal{M}_1, \mathcal{M}_2, \mathcal{M}_3\in \operatorname{Obj}(\mathbf{Loc}),$$and the disjoint union of the null set provides a left and right unit up to isomorphism$$\emptyset\sqcup \mathcal{M} \cong \mathcal{M} \cong \mathcal{M} \sqcup\emptyset.$$We require that for morphisms of $\mathbf{Loc}^\sqcup$, $\chi: \mathcal{M}_1\sqcup \cdots \sqcup \mathcal{M}_n\rightarrow \mathcal{M}$, the sub spacetimes $\chi(\mathcal{M}_i), \chi(\mathcal{M}_j)$ be causally disjoint for $i\neq j$, i.e., there exists no causal curve in $\mathcal{M}$ connecting the two sub regions. 
+We can extend $\mathbf{Loc}$ to a monoidal category $\mathbf{Loc}^\sqcup$ by taking the disjoint union as a bifunctor and the empty set as the unit element. The disjoint union is associative up to natural isomorphism
+
+$$\mathcal{M}_1\sqcup (\mathcal{M}_2\sqcup \mathcal{M}_3)\cong( \mathcal{M}_1\sqcup \mathcal{M}_2)\sqcup \mathcal{M}_3\quad \forall \mathcal{M}_1, \mathcal{M}_2, \mathcal{M}_3\in \operatorname{Obj}(\mathbf{Loc}),$$
+
+and the disjoint union of the null set provides a left and right unit up to isomorphism
+
+$$\emptyset\sqcup \mathcal{M} \cong \mathcal{M} \cong \mathcal{M} \sqcup\emptyset.$$
+
+We require that for morphisms of $\mathbf{Loc}^\sqcup$, $\chi: \mathcal{M}_1\sqcup \cdots \sqcup \mathcal{M}_n\rightarrow \mathcal{M}$, the sub spacetimes $\chi(\mathcal{M}_i), \chi(\mathcal{M}_j)$ be causally disjoint for $i\neq j$, i.e., there exists no causal curve in $\mathcal{M}$ connecting the two sub regions. 
 
 Generally, the algebra of observables for a given region will be a $*$-algebra (potentially with extra structure). We define the category of observables $\mathbf{Obs}$ as
 
