@@ -54,7 +54,7 @@ Generally, the algebra of observables for a given region will be a $\star$-algeb
 - $\operatorname{Obj}(\mathbf{Obs})$: unital $\star$-algebras.
 - $\operatorname{Hom}(\mathbf{Obs})$: unit preserving, injective $\star$-homomorphisms.
 
-The morphisms are algebra homomorphisms, $\varphi:\mathcal{A}\rightarrow \mathcal{B}$, with the additional properties, $\varphi(\mathbb{1}&#95;\mathcal{A}) = \mathbb{1}&#95;\mathcal{B}$ and $\varphi(A^\star) = \varphi(A)^\star$.
+The morphisms are algebra homomorphisms, $\varphi:\mathcal{A}\rightarrow \mathcal{B}$, with the additional properties, \(\varphi(\mathbb{1}_\mathcal{A}) = \mathbb{1}_\mathcal{B}\) and $\varphi(A^\star) = \varphi(A)^\star$.
 
 This is easily equipped with the familiar tensor product on vector spaces and its unit element is also the complex numbers. (This requires more care when dealing with $C^\star$-algebras.)
 
