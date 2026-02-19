@@ -47,16 +47,16 @@ $$\emptyset\sqcup \mathcal{M} \cong \mathcal{M} \cong \mathcal{M} \sqcup\emptyse
 
 As the two regions in the spacetime $\mathcal{M}_1\sqcup \mathcal{M}_2$ are disjoint, it follows that they are spacelike separated. Morphisms in $\mathbf{Loc}$ are causality preserving so for an embedding $\chi:\mathcal{M}_1\sqcup \mathcal{M}_2\rightarrow \mathcal{M}$, the images of these regions $\chi(\mathcal{M}_1)$, $\chi(\mathcal{M}_2)$ must also be spacelike in $\mathcal{M}$.
 
-Generally, the algebra of observables for a given region will be a $*$-algebra (potentially with extra structure). 
+Generally, the algebra of observables for a given region will be a $\star$-algebra (potentially with extra structure). 
 
 **Definition 1.3** ($\mathbf{Obs}$). The category of observables has
 
-- $\operatorname{Obj}(\mathbf{Obs})$: unital $*$-algebras.
-- $\operatorname{Hom}(\mathbf{Obs})$: unit preserving, injective $*$-homomorphisms.
+- $\operatorname{Obj}(\mathbf{Obs})$: unital $\star$-algebras.
+- $\operatorname{Hom}(\mathbf{Obs})$: unit preserving, injective $\star$-homomorphisms.
 
-The morphisms are algebra homomorphisms, $\varphi:\mathcal{A}\rightarrow \mathcal{B}$, with the additional properties, $\varphi(\mathbb{1}&#95;\mathcal{A}) = \mathbb{1}&#95;\mathcal{B}$ and $\varphi(A^*) = \varphi(A)^*$.
+The morphisms are algebra homomorphisms, $\varphi:\mathcal{A}\rightarrow \mathcal{B}$, with the additional properties, $\varphi(\mathbb{1}&#95;\mathcal{A}) = \mathbb{1}&#95;\mathcal{B}$ and $\varphi(A^\star) = \varphi(A)^\star$.
 
-This is easily equipped with the familiar tensor product on vector spaces and its unit element is also the complex numbers. (This requires more care when dealing with $C^*$-algebras.)
+This is easily equipped with the familiar tensor product on vector spaces and its unit element is also the complex numbers. (This requires more care when dealing with $C^\star$-algebras.)
 
 The final notion we require is a functor between these categories, $\mathfrak{A}:\mathbf{Loc}\rightarrow \mathbf{Obs}$, that respects their monoidal structure. 
 
@@ -70,4 +70,4 @@ $$\mathfrak{A}(\emptyset)=\mathbb{C}.$$
 
 This functor is a model of a locally covariant quantum field theory.
 
-**To do**: create figures, add section on quantum fields in this model.
+**To do**: create figures, , explain the $\star$-structure on the $\mathbf{Loc}$ side, add section on quantum fields in this model.
